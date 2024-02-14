@@ -1,0 +1,283 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    /* Added: subtle DNA helix pattern using linear gradient */
+    background-image: linear-gradient(45deg, #e0e0e0, #c8c8c8, #e0e0e0);
+    background-size: 40px 40px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+header, nav, footer {
+    background-color: #005a8d;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.3s; /* Added: transition effect */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s; /* Added: transition effect */
+}
+
+nav a:hover {
+    color: #FFFFFF; /* Added: hover effect */
+}
+
+main {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#profile-pic {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s; /* Added: transition effect */
+}
+
+#profile-pic:hover {
+    transform: scale(1.1); /* Added: hover effect to zoom in slightly */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Rainbow effect for highlighted text */
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Reverted the navigation style to center */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;  /* to center the list in the navigation */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;  /* to apply padding */
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+/* Adding some shadow effects for depth */
+header, nav, footer, section {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Enhancing navigation links */
+nav a:hover {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+}
+
+/* Enhancing headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #005a8d;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Styling for hover explanations */
+.hover-explanation {
+    display: none;  /* Initially hidden */
+    position: absolute;
+    background-color: #e0e0e0;
+    color: #005a8d;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Displaying explanation on button hover */
+li:hover .hover-explanation {
+    display: block;
+}
+
+/* Styling for playful text */
+.playful-text {
+    font-weight: bold;  /* Making the text bold */
+    transition: all 0.3s ease;  /* Smooth transition for the hover effects */
+}
+
+.playful-text:hover {
+    font-size: 1.2em;  /* Increasing the text size on hover */
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;  /* Creating a rainbow color effect on hover */
+}
+
+/* Playful hover effect for header and nav */
+header:hover, nav:hover {
+    background-color: #0073a1;
+}
+
+/* Styling for services */
+section#services li {
+    padding: 5px;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Added: transition effect */
+}
+
+section#services li:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+/* Portfolio Section */
+.portfolio-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.portfolio-name {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.portfolio-description {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.section-header {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.experience-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.experience-detail {
+    margin-left: 20px;
+    color: #555;
+}
+
+
+
+/* Skills & Technologies */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-item {
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    margin-bottom: 20px;
+}
+
+/* Certifications & Courses */
+.certification-name {
+    margin-bottom: 10px;
+}
+
+/* end of  Portfolio Section*/
+
+
+
+
