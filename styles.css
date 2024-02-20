@@ -47,6 +47,10 @@ nav a:hover {
     color: #FFFFFF; /* Added: hover effect */
 }
 
+header h1 {
+    color: #FFFFFF; /* Sets the color of the text to white */
+}
+
 main {
     background-color: #e0e0e0;
     border-radius: 8px;
